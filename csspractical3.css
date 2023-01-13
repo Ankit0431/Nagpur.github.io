@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(255, 247, 237);
+  }
+  .bg-image {
+    background-image: url(BGBLUR.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-text {
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+.things {
+    padding: 105px;
+    float: inline-end;
+    margin-right: 50px;
+    transition: 0.5s;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    position:relative;
+    top: 50px;
+    right: 20px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+  }
+  .things:hover {
+    transform: scale(1.2,1.2);
+  }
+  #stuff {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .information {
+    margin-right: 900px;
+    margin-left: 900px;
+  }
+  .destinations {
+    margin: auto;
+    height: 300px;
+    width: 512px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px rgb(207, 207, 207);
+    transition: 0.3s;
+  }
+  
+  .destinations:hover {
+    box-shadow: 3px 3px 3px 4px rgb(207, 207, 207);
+  }
+  #food,#speritual,#heritage,#gardens,#shopping,#forests,#stays,#near {
+    transition: 0.5s;
+    border-radius: 10px;
+  }
+  #food:hover,#speritual:hover,#heritage:hover,#gardens:hover,#shopping:hover,#forests:hover,#stays:hover,#near:hover {
+    background-color: rgb(68, 68, 68);
+    color: rgb(219, 219, 219);
+  }
+  a {
+    color: brown;
+  }
+  a:hover {
+    color:rgb(156, 248, 207)
+  }
